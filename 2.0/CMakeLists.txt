@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.5.1)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_COMPILER "icpc")
+set(CMAKE_CXX_COMPILER "clang++")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -Wall ")
 #set(CMAKE_CXX_FLAGS_DEBUG "-prof-gen=srcpos -g")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -Wall")
